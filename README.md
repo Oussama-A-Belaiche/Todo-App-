@@ -45,8 +45,6 @@ To run this project locally:
 
 
 ## Author
-
-- **Your Name**  
 - GitHub: https://github.com/Oussama-A-Belaiche
 
 ## Acknowledgements
