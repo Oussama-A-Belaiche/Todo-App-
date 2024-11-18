@@ -1,0 +1,107 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Basic Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for Todo List */
+.todo {
+    width: 40%;
+    background-color: white;
+    border: 2px solid #3c3c3c;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input section styles */
+.todo .inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todo .inputs input {
+    width: 75%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.todo .inputs button {
+    background-color: #00d4ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.todo .inputs button:hover {
+    background-color: #0088cc;
+}
+
+/* Styles for each task container */
+.taskdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+/* Task Checkbox Styles */
+.taskdiv input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Task Text Style */
+.task {
+    flex-grow: 1;
+    font-size: 18px;
+    color: #333;
+    transition: text-decoration 0.3s;
+}
+
+/* Task Text when completed */
+.task.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Delete button styles */
+.delete {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.delete:hover {
+    background-color: #cc0000;
+}
