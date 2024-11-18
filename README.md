@@ -22,12 +22,12 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Oussama-A-Belaiche/todo-app.git
+   https://github.com/Oussama-A-Belaiche/Todo-App-
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd todo-app
+   cd Todo
    ```
 
 3. Open `todo.html` in your preferred browser.
