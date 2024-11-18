@@ -43,14 +43,6 @@ To run this project locally:
 
 ![Capture d'écran 2024-11-18 120226](https://github.com/user-attachments/assets/e1d4a473-e119-43e6-84dc-c857409da686)
 
-## Future Improvements
-
-- Add local storage to persist tasks between page reloads.
-- Implement user authentication so users can have personalized todo lists.
-- Add task priority and due dates.
-- Style the app further with animations and transitions.
-
-
 
 ## Author
 
